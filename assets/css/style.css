@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* navbar styling */
+#navbar{
+    width: 100%;
+    background: rgba(226, 255, 247, 0.885);
+}
+
+#navbar #navbrand{ 
+    font-family: 'fira sans' ,sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    text-shadow: black;
+}
+
+#navbar .navbar{
+    background: transparent;
+}
+
+#navbar .navbar-nav{
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'roboto' ,sans-serif;
+}
+/* selesai */
+
+/* jumbotron */
+.jumbotron{
+    padding-top: 7rem;
+    padding-left: -10rem;
+    background-color: rgba(237, 255, 251, 0.885);
+}
+
+.jumbotron h1{
+    font-size:3.5rem;
+    font-weight:600;
+}
+
+.sosialmedia{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.sosialmedia .fab{
+    color: #FF6B6B;
+    margin-right: 20px;
+}
+
+.sosialmedia .fas{
+    color: #FF6B6B;
+    margin-right: 20px;
+}
+/* Akhir Jumbotron

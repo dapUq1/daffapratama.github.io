@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+/*Navbar Styling*/
+#navbar {
+  position: fixed;
+  background: rgba(226, 255, 247, 0.885);
+}
+
+.navbar-brand {
+  font-family: "fira sans", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  text-shadow: black;
+}
+.navbar #fitur {
+  font-family: "raleway", sans-serif;
+  font-size: 16px;
+}
+
+#navbar .navbar {
+  background: transparent;
+}
+
+/*Jumbotron Styling*/
+.jumbotron {
+  background-color: rgba(237, 255, 251, 0.885);
+  padding-top: 6rem;
+}
+
+.display-4 {
+  font-family: "Fira Sans", sans-serif;
+}
+.sosmed {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.sosmed .fab {
+  color: #6abf9a;
+  margin-right: 20px;
+}
+
+.sosmed .fas {
+  color: #6abf9a;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #6abf9a;
+  border-radius: 2rem;
+  font-family: "viga", sans-serif;
+  color: whitesmoke;
+}
+
+.btn:hover {
+  background: var(--white);
+  color: #6abf9a;
+}
+
+/*About Styling*/
+#about{
+  padding-top: 6rem;
+}
+
+.kontenerabot {
+  margin-top: 10rem;
+}
+
+#textabout {
+  font-family: "fira sans", sans-serif;
+  font-size: 40px;
+}
+
+.textabout2 {
+  font-family: "viga", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+#gambarbawah {
+  border-radius: 60px 200px 100px 200px;
+}
+
+/*Achivement Styling*/
+#achivement {
+  background-color: rgba(237, 255, 251, 0.885);
+  padding-top: 6rem;
+}
+
+/*skills styling*/
+#skills {
+  padding-top: 6rem;
+}
+
+.skill-main{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, lfr);
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+}
+
+.skill-main .skill-bar .info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-family: 'fira sans', sans-serif;
+}
+
+.skill-bar .bar{
+  width: 100%;
+  height: 10px;
+  position: relative;
+  background-color: #999;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.skill-bar .bar span{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #6abf9a;
+  border-radius: 25px;
+}
+
+.skill-bar .bar .html{
+  width: 70%;
+  animation: html 3s;
+}
+
+@keyframes html {
+  0%{
+    width: 0;
+  }100%{
+    width: 70%;
+  }
+}
+
+.skill-bar .bar .css{
+  width: 70%;
+  animation: css 3s;
+}
+
+@keyframes css {
+  0%{
+    width: 0;
+  }100%{
+    width: 70%;
+  }
+}
+
+.skill-bar .bar .javascript{
+  width: 10%;
+  animation: javascript 3s;
+}
+
+@keyframes javascript {
+  0%{
+    width: 0;
+  }100%{
+    width: 10%;
+  }
+}
+
+.skill-bar .bar .php{
+  width: 30%;
+  animation: php 3s;
+}
+
+@keyframes php {
+  0%{
+    width: 0;
+  }100%{
+    width: 30%;
+  }
+}
+
+.skill-bar .bar .photoshop{
+  width: 50%;
+  animation: photoshop 3s;
+}
+
+@keyframes photoshop {
+  0%{
+    width: 0;
+  }100%{
+    width: 50%;
+  }
+}
+/*Contact Styling*/
+#contact {
+  background-color: rgba(237, 255, 251, 0.885);
+  padding-top: 6rem;
+}
+
+/*Footer Styling*/
+.footer {
+  font-size: 30px;
+}
+
+.section {
+  padding-top: 5rem;
+}
